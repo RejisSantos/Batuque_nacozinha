@@ -1,0 +1,33 @@
+.menu-hero{background:var(--dark);color:var(--cream);padding-block:3.5rem 3.65rem}
+.menu-hero .eyebrow{color:var(--gold)}
+.menu-hero h1{font-size:clamp(3.8rem,10vw,7.2rem)}
+.menu-hero p:last-child{max-width:48ch;margin-top:1rem;color:#e9e0ea}
+.nav a[aria-current=page]{color:var(--gold);text-decoration:underline;text-underline-offset:.3rem}
+.menu-layout{display:grid;grid-template-columns:minmax(190px,.6fr) minmax(0,2fr);gap:clamp(1rem,6vw,5rem);padding-block:2.75rem 4rem;align-items:start;scroll-margin-top:1rem}
+.menu-sidebar{position:sticky;top:1rem;max-height:calc(100vh - 2rem);overflow:auto;padding:.25rem}
+.menu-sidebar h2{font:750 1rem/1.4 "Segoe UI",system-ui,sans-serif;letter-spacing:0;margin-bottom:.7rem}
+.category-links{display:flex;flex-direction:column;gap:.5rem}
+.category-links a{border:1px solid var(--line);padding:.55rem .75rem;background:#fff9ef;text-decoration:none;border-radius:5px;font-weight:650}
+.category-links a:hover,.category-links a:focus-visible{background:#ffe8b7}
+.menu-search label{display:block;font-weight:750;margin-bottom:.45rem}
+.search-field{display:flex;align-items:stretch;gap:.55rem}
+.search-field input{flex:1;min-width:0;font:inherit;color:var(--ink);background:#fffdf8;border:1px solid #887769;border-radius:6px;padding:.65rem .85rem;min-height:47px}
+.search-field button{background:transparent;border:1px solid #887769;border-radius:6px;color:var(--ink);padding:.45rem .7rem;cursor:pointer}
+.result-status:not(:empty){margin:.7rem 0;color:var(--muted)}
+.menu-section{margin-top:1.3rem}
+.menu-section h2{font-size:clamp(1.85rem,4vw,2.5rem);margin-bottom:.55rem}
+.menu-entry{padding:1rem 1.15rem;border:1px solid var(--line);background:#fffaf0;border-radius:7px}
+.menu-entry h3{font-size:1.07rem;margin-bottom:.25rem}
+.menu-entry p{color:var(--muted)}
+.menu-items{display:grid;gap:.5rem}
+.menu-entry.priced{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.5rem 1rem;align-items:center;padding:.75rem 1rem}
+.menu-entry[hidden]{display:none}
+.menu-price{text-align:right}
+.menu-price span{display:block;font-size:.85rem}
+.menu-price strong{color:#663821}
+@media(max-width:420px){.menu-entry.priced{grid-template-columns:1fr}.menu-price{text-align:left}.menu-price span{display:inline;margin-right:.35rem}}
+.lunch-link{margin-top:.7rem}
+.menu-contact{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.75rem;margin-top:1.6rem;padding-top:1rem;border-top:1px solid var(--line)}
+.menu-contact h2{font-size:clamp(1.75rem,3.5vw,2.2rem)}
+@media(max-width:760px){.menu-hero{padding-block:2.25rem}.menu-layout{grid-template-columns:1fr;padding-block:1.25rem 2.5rem;gap:1rem}.menu-sidebar{position:static}.category-links{flex-direction:row;flex-wrap:wrap}.category-links a{padding:.48rem .62rem;font-size:.9rem}}
+

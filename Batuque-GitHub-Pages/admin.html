@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel de divulgações | Batuque na Cozinha</title>
+<link rel="stylesheet" href="styles.css"><script src="divulgacoes.js" defer></script></head>
+<body>
+<main class="shell admin-page">
+<a href="index.html">← Voltar ao site</a>
+<h1>Painel de divulgações</h1>
+<p>Edite a agenda e prepare imagens verticais 4:5. Para publicar, envie o arquivo exportado ao GitHub com uma conta autorizada no repositório.</p>
+<p id="admin-status" role="status"></p>
+<form id="admin-form" class="admin-form">
+<label>Publicação<select id="entries"><option value="">Nova divulgação</option></select></label>
+<div class="admin-fields">
+<label>Título<input name="title" required maxlength="100"></label>
+<label>Data<input name="date" type="date" required></label>
+<label>Legenda<textarea name="caption" maxlength="400" rows="3"></textarea></label>
+<label>Imagem da divulgação<input id="upload" type="file" accept="image/jpeg,image/png,image/webp"></label>
+<label>Ajuste da imagem<select id="fit"><option value="contain">Mostrar inteira com margens</option><option value="cover">Preencher com recorte central</option></select></label>
+</div>
+<div class="admin-preview"><img id="preview" alt="Prévia da divulgação" width="1080" height="1350" hidden></div>
+<div class="actions">
+<button type="submit" class="btn dark">Salvar na lista</button>
+<button type="button" class="btn menu-outline" id="remove" disabled>Remover da lista</button>
+</div>
+</form>
+<div class="actions">
+<button type="button" class="btn dark" id="export" disabled>Baixar divulgações</button>
+<a class="btn menu-outline" href="https://github.com/RejisSantos/Batuque_nacozinha/upload/main" target="_blank" rel="noopener">Publicar no GitHub</a>
+</div>
+<p>No GitHub, envie o arquivo com o nome <strong>divulgacoes.json</strong> e confirme o commit na branch <strong>main</strong>.</p>
+</main></body></html>

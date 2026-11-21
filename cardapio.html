@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Cardápio digital do Batuque na Cozinha, com prato feito, petiscos e doces.">
+  <title>Cardápio | Batuque na Cozinha</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cardapio.css">
+  <script src="cardapio.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#categorias">Ir para as categorias</a>
+  <header><div class="shell nav">
+    <a href="index.html" class="brand"><span class="emblem"><img src="assets/logo-batuque.png" width="720" height="1600" alt=""></span><span>Batuque <i>na Cozinha</i></span></a>
+    <nav aria-label="Menu principal"><a href="index.html">Início</a><a href="index.html#agenda">Agenda</a><a href="cardapio.html" aria-current="page">Cardápio</a><a href="index.html#visita">Como chegar</a></nav>
+    <a class="btn outlined header-instagram" href="https://www.instagram.com/batuque_nacozinha/">Instagram</a>
+  </div></header>
+
+  <main>
+    <section class="menu-hero" aria-labelledby="menu-title"><div class="shell">
+      <p class="eyebrow">Batuque na Cozinha · Betim</p>
+      <h1 id="menu-title">Cardápio</h1>
+      <p>O almoço e as sobremesas variam. Consulte as opções na casa ou no Instagram do Batuque.</p>
+    </div></section>
+
+    <div class="shell menu-layout" id="categorias">
+      <aside class="menu-sidebar">
+        <h2>Categorias</h2>
+        <div class="category-links" aria-label="Categorias do cardápio">
+          <a href="#prato-feito">Prato feito</a>
+          <a href="#entradas">Entradas</a>
+          <a href="#espetinhos">Espetinhos</a>
+          <a href="#petiscos">Porções e petiscos</a>
+          <a href="#refeicoes">Refeições para compartilhar</a>
+          <a href="#massas">Massas e tropeiro</a>
+          <a href="#caldos">Caldos</a>
+          <a href="#bebidas">Sucos e refrigerantes</a>
+          <a href="#drinks">Caipirinhas e drinks</a>
+          <a href="#chopes">Chopes e torres</a>
+          <a href="#cervejas">Cervejas</a>
+          <a href="#long-neck">Long neck</a>
+          <a href="#destilados">Destilados e aperitivos</a>
+          <a href="#doces">Sobremesas</a>
+        </div>
+      </aside>
+
+      <div class="menu-content">
+        <div class="menu-search" hidden>
+          <label for="busca">Buscar no cardápio</label>
+          <div class="search-field"><input id="busca" type="search" placeholder="Ex.: petiscos" autocomplete="off"><button type="button" id="limpar" hidden>Limpar</button></div>
+        </div>
+        <p id="resultados" role="status" class="result-status"></p>
+        <section class="menu-section" id="prato-feito">
+          <h2>Prato feito</h2>
+          <article class="menu-entry">
+            <h3>Almoço do dia</h3>
+            <p>Segunda a sexta, das 10h às 15h. O cardápio varia conforme o dia. Consulte as opções na casa ou no Instagram do Batuque.</p>
+            <a class="btn dark lunch-link" href="https://www.instagram.com/batuque_nacozinha/">Consultar almoço do dia no Instagram</a>
+          </article>
+        </section>
+        <section class="menu-section" id="entradas">
+          <h2>Entradas</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Pão</h3><p>Unidade</p></div><p class="menu-price"><span>Referência</span><strong>R$ 10,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Fritas pequenas</h3><p>300 g</p></div><p class="menu-price"><span>Referência</span><strong>R$ 20,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Porção de pastel</h3><p>6 unidades</p></div><p class="menu-price"><span>Referência</span><strong>R$ 32,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Bolinho de bacalhau</h3><p>10 unidades</p></div><p class="menu-price"><span>Referência</span><strong>R$ 39,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Bolinho de carne</h3><p>8 unidades</p></div><p class="menu-price"><span>Referência</span><strong>R$ 35,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="espetinhos">
+          <h2>Espetinhos</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Espetinho misto</h3><p>Boi, porco e medalhão de frango</p></div><p class="menu-price"><span>Referência</span><strong>R$ 15,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Espetinho de muçarela temperada</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 15,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Medalhão de muçarela</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 15,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Espetinho de contrafilé</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 16,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Medalhão de frango</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 14,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Espetinho de coração</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 14,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="petiscos">
+          <h2>Porções e petiscos</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Porção especial de carnes</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 145,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Tábua de picanha</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 145,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Tábua mineirinha</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 82,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Contrafilé com fritas ou mandioca</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 93,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Contrafilé com fritas e mandioca</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 95,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Lombo com fritas ou mandioca</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 72,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Filé de tilápia</h3><p>700 g</p></div><p class="menu-price"><span>Referência</span><strong>R$ 77,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Filé de tilápia com fritas ou mandioca</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 99,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Frango a passarinho</h3><p>1 kg</p></div><p class="menu-price"><span>Referência</span><strong>R$ 50,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Frango a passarinho com fritas ou mandioca</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 65,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Fritas com queijo e bacon</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 43,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Fritas com cheddar e bacon</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 43,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Fritas com queijo</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 38,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Fritas com bacon</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 38,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="refeicoes">
+          <h2>Refeições para compartilhar</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Refeição de churrasco</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 158,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Refeição de contrafilé</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 135,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Refeição de filé de tilápia</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 125,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Refeição de traíra</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 125,00</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="massas">
+          <h2>Massas e tropeiro</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Espaguete à bolonhesa</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 20,90 a R$ 30,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Tropeiro</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 20,90 a R$ 30,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Meio a meio grande</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 30,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Espaguete na chapa</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 21,90 a R$ 31,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="caldos">
+          <h2>Caldos</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Caldo de mandioca</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 21,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Caldo de feijão</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 21,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="bebidas">
+          <h2>Sucos e refrigerantes</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Suco natural</h3><p>300 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 10,50 a R$ 12,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Jarra de suco</h3><p>1,5 L</p></div><p class="menu-price"><span>Referência</span><strong>R$ 41,00 a R$ 44,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Suco de uva de caixinha</h3><p>200 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 5,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Guaraná</h3><p>2 L</p></div><p class="menu-price"><span>Referência</span><strong>R$ 18,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Coca-Cola</h3><p>2 L</p></div><p class="menu-price"><span>Referência</span><strong>R$ 19,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Coca-Cola Zero</h3><p>2 L</p></div><p class="menu-price"><span>Referência</span><strong>R$ 19,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Guaraná</h3><p>350 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 7,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Guaraná Zero</h3><p>350 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 7,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Coca-Cola</h3><p>350 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 7,50</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="drinks">
+          <h2>Caipirinhas e drinks</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Maracujá com hortelã</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 17,50 a R$ 20,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Limão</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 17,50 a R$ 20,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Abacaxi</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 17,50 a R$ 20,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Morango</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 17,50 a R$ 20,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Morango com maracujá</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 18,50 a R$ 21,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Caipirinha cremosa</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 19,50 a R$ 20,50</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="chopes">
+          <h2>Chopes e torres</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Chope Ecobier</h3><p>300 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 9,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Chope Brahma</h3><p>300 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 10,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Torre Ecobier Chope</h3><p>1,8 L</p></div><p class="menu-price"><span>Referência</span><strong>R$ 33,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Torre Ecobier Puro Malte</h3><p>1,8 L</p></div><p class="menu-price"><span>Referência</span><strong>R$ 35,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="cervejas">
+          <h2>Cervejas</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Budweiser</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 14,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Bohemia Puro Malte</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 12,70</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Skol</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 12,70</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Brahma</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 13,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Brahma Duplo Malte</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 14,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Original</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 15,70</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Spaten</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 15,70</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Stella</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 16,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Heineken</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 18,80</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Ecobier Chope</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 11,40</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Ecobier Puro Malte</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 12,20</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Serramalte</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 16,70</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Corona</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 19,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Stella Pure Gold</h3><p>600 ml</p></div><p class="menu-price"><span>Referência</span><strong>R$ 19,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="long-neck">
+          <h2>Long neck</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Stella Pure Gold</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 12,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Corona</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 13,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Corona Zero</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 13,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Heineken</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 12,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Heineken Zero</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 12,90</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Smirnoff Ice</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 13,90</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="destilados">
+          <h2>Destilados e aperitivos</h2>
+          <div class="menu-items">
+            <article class="menu-entry priced"><div><h3>Licor 43</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 30,00 a R$ 310,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Tequila</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 24,00 a R$ 250,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Amarula</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 24,00 a R$ 240,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Campari</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 15,00 a R$ 115,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Vodka Absolut</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 18,00 a R$ 300,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Vodka Smirnoff</h3></div><p class="menu-price"><span>Referência</span><strong>R$ 13,50 a R$ 110,00</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Seleta</h3><p>Dose</p></div><p class="menu-price"><span>Referência</span><strong>R$ 8,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Salinas</h3><p>Dose</p></div><p class="menu-price"><span>Referência</span><strong>R$ 8,50</strong></p></article>
+            <article class="menu-entry priced"><div><h3>Vale Verde</h3><p>Dose</p></div><p class="menu-price"><span>Referência</span><strong>R$ 10,00</strong></p></article>
+          </div>
+        </section>
+        <section class="menu-section" id="doces">
+          <h2>Sobremesas</h2>
+          <article class="menu-entry">
+            <h3>Doces da casa</h3>
+            <p>As opções de sobremesa variam. Consulte a disponibilidade na casa ou no Instagram.</p>
+            <a class="btn dark lunch-link" href="https://www.instagram.com/batuque_nacozinha/">Consultar sobremesas no Instagram</a>
+          </article>
+        </section>
+        <section class="menu-contact" aria-labelledby="menu-horarios">
+          <div><h2 id="menu-horarios">Horário de funcionamento</h2>
+          <dl class="opening-hours">
+            <div><dt>Almoço · Segunda a sexta</dt><dd><time datetime="10:00">10h</time> às <time datetime="15:00">15h</time></dd></div>
+            <div><dt>Noite · Quarta a domingo</dt><dd><time datetime="17:00">17h</time> à <time datetime="00:00">meia-noite (00h)</time></dd></div>
+          </dl>
+          </div>
+          <div class="actions">
+            <a class="btn dark" href="tel:+5531971178222">Ligar · (31) 97117-8222</a>
+            <a class="btn menu-outline" href="https://www.instagram.com/batuque_nacozinha/">Consultar no Instagram</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer><div class="shell footer"><strong>Batuque na Cozinha</strong><span>Proposta acadêmica · Betim Digital</span><a href="https://www.instagram.com/batuque_nacozinha/">@batuque_nacozinha</a></div></footer>
+</body>
+</html>

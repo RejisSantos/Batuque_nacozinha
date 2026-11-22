@@ -1,0 +1,678 @@
+{
+  "menu": [
+    {
+      "category": "entradas",
+      "title": "Pão",
+      "desc": "Unidade",
+      "price": "R$ 10,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "entradas",
+      "title": "Fritas pequenas",
+      "desc": "300 g",
+      "price": "R$ 20,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "entradas",
+      "title": "Porção de pastel",
+      "desc": "6 unidades",
+      "price": "R$ 32,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "entradas",
+      "title": "Bolinho de bacalhau",
+      "desc": "10 unidades",
+      "price": "R$ 39,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "entradas",
+      "title": "Bolinho de carne",
+      "desc": "8 unidades",
+      "price": "R$ 35,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "espetinhos",
+      "title": "Espetinho misto",
+      "desc": "Boi, porco e medalhão de frango",
+      "price": "R$ 15,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "espetinhos",
+      "title": "Espetinho de muçarela temperada",
+      "desc": "",
+      "price": "R$ 15,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "espetinhos",
+      "title": "Medalhão de muçarela",
+      "desc": "",
+      "price": "R$ 15,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "espetinhos",
+      "title": "Espetinho de contrafilé",
+      "desc": "",
+      "price": "R$ 16,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "espetinhos",
+      "title": "Medalhão de frango",
+      "desc": "",
+      "price": "R$ 14,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "espetinhos",
+      "title": "Espetinho de coração",
+      "desc": "",
+      "price": "R$ 14,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Porção especial de carnes",
+      "desc": "",
+      "price": "R$ 145,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Tábua de picanha",
+      "desc": "",
+      "price": "R$ 145,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Tábua mineirinha",
+      "desc": "",
+      "price": "R$ 82,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Contrafilé com fritas ou mandioca",
+      "desc": "",
+      "price": "R$ 93,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Contrafilé com fritas e mandioca",
+      "desc": "",
+      "price": "R$ 95,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Lombo com fritas ou mandioca",
+      "desc": "",
+      "price": "R$ 72,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Filé de tilápia",
+      "desc": "700 g",
+      "price": "R$ 77,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Filé de tilápia com fritas ou mandioca",
+      "desc": "",
+      "price": "R$ 99,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Frango a passarinho",
+      "desc": "1 kg",
+      "price": "R$ 50,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Frango a passarinho com fritas ou mandioca",
+      "desc": "",
+      "price": "R$ 65,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Fritas com queijo e bacon",
+      "desc": "",
+      "price": "R$ 43,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Fritas com cheddar e bacon",
+      "desc": "",
+      "price": "R$ 43,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Fritas com queijo",
+      "desc": "",
+      "price": "R$ 38,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "petiscos",
+      "title": "Fritas com bacon",
+      "desc": "",
+      "price": "R$ 38,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "refeicoes",
+      "title": "Refeição de churrasco",
+      "desc": "",
+      "price": "R$ 158,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "refeicoes",
+      "title": "Refeição de contrafilé",
+      "desc": "",
+      "price": "R$ 135,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "refeicoes",
+      "title": "Refeição de filé de tilápia",
+      "desc": "",
+      "price": "R$ 125,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "refeicoes",
+      "title": "Refeição de traíra",
+      "desc": "",
+      "price": "R$ 125,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "massas",
+      "title": "Espaguete à bolonhesa",
+      "desc": "",
+      "price": "R$ 20,90 a R$ 30,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "massas",
+      "title": "Tropeiro",
+      "desc": "",
+      "price": "R$ 20,90 a R$ 30,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "massas",
+      "title": "Meio a meio grande",
+      "desc": "",
+      "price": "R$ 30,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "massas",
+      "title": "Espaguete na chapa",
+      "desc": "",
+      "price": "R$ 21,90 a R$ 31,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "caldos",
+      "title": "Caldo de mandioca",
+      "desc": "",
+      "price": "R$ 21,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "caldos",
+      "title": "Caldo de feijão",
+      "desc": "",
+      "price": "R$ 21,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Suco natural",
+      "desc": "300 ml",
+      "price": "R$ 10,50 a R$ 12,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Jarra de suco",
+      "desc": "1,5 L",
+      "price": "R$ 41,00 a R$ 44,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Suco de uva de caixinha",
+      "desc": "200 ml",
+      "price": "R$ 5,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Guaraná",
+      "desc": "2 L",
+      "price": "R$ 18,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Coca-Cola",
+      "desc": "2 L",
+      "price": "R$ 19,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Coca-Cola Zero",
+      "desc": "2 L",
+      "price": "R$ 19,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Guaraná",
+      "desc": "350 ml",
+      "price": "R$ 7,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Guaraná Zero",
+      "desc": "350 ml",
+      "price": "R$ 7,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "bebidas",
+      "title": "Coca-Cola",
+      "desc": "350 ml",
+      "price": "R$ 7,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "drinks",
+      "title": "Maracujá com hortelã",
+      "desc": "",
+      "price": "R$ 17,50 a R$ 20,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "drinks",
+      "title": "Limão",
+      "desc": "",
+      "price": "R$ 17,50 a R$ 20,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "drinks",
+      "title": "Abacaxi",
+      "desc": "",
+      "price": "R$ 17,50 a R$ 20,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "drinks",
+      "title": "Morango",
+      "desc": "",
+      "price": "R$ 17,50 a R$ 20,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "drinks",
+      "title": "Morango com maracujá",
+      "desc": "",
+      "price": "R$ 18,50 a R$ 21,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "drinks",
+      "title": "Caipirinha cremosa",
+      "desc": "",
+      "price": "R$ 19,50 a R$ 20,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "chopes",
+      "title": "Chope Ecobier",
+      "desc": "300 ml",
+      "price": "R$ 9,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "chopes",
+      "title": "Chope Brahma",
+      "desc": "300 ml",
+      "price": "R$ 10,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "chopes",
+      "title": "Torre Ecobier Chope",
+      "desc": "1,8 L",
+      "price": "R$ 33,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "chopes",
+      "title": "Torre Ecobier Puro Malte",
+      "desc": "1,8 L",
+      "price": "R$ 35,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Budweiser",
+      "desc": "600 ml",
+      "price": "R$ 14,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Bohemia Puro Malte",
+      "desc": "600 ml",
+      "price": "R$ 12,70",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Skol",
+      "desc": "600 ml",
+      "price": "R$ 12,70",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Brahma",
+      "desc": "600 ml",
+      "price": "R$ 13,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Brahma Duplo Malte",
+      "desc": "600 ml",
+      "price": "R$ 14,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Original",
+      "desc": "600 ml",
+      "price": "R$ 15,70",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Spaten",
+      "desc": "600 ml",
+      "price": "R$ 15,70",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Stella",
+      "desc": "600 ml",
+      "price": "R$ 16,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Heineken",
+      "desc": "600 ml",
+      "price": "R$ 18,80",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Ecobier Chope",
+      "desc": "600 ml",
+      "price": "R$ 11,40",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Ecobier Puro Malte",
+      "desc": "600 ml",
+      "price": "R$ 12,20",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Serramalte",
+      "desc": "600 ml",
+      "price": "R$ 16,70",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Corona",
+      "desc": "600 ml",
+      "price": "R$ 19,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "cervejas",
+      "title": "Stella Pure Gold",
+      "desc": "600 ml",
+      "price": "R$ 19,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "long-neck",
+      "title": "Stella Pure Gold",
+      "desc": "",
+      "price": "R$ 12,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "long-neck",
+      "title": "Corona",
+      "desc": "",
+      "price": "R$ 13,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "long-neck",
+      "title": "Corona Zero",
+      "desc": "",
+      "price": "R$ 13,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "long-neck",
+      "title": "Heineken",
+      "desc": "",
+      "price": "R$ 12,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "long-neck",
+      "title": "Heineken Zero",
+      "desc": "",
+      "price": "R$ 12,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "long-neck",
+      "title": "Smirnoff Ice",
+      "desc": "",
+      "price": "R$ 13,90",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Licor 43",
+      "desc": "",
+      "price": "R$ 30,00 a R$ 310,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Tequila",
+      "desc": "",
+      "price": "R$ 24,00 a R$ 250,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Amarula",
+      "desc": "",
+      "price": "R$ 24,00 a R$ 240,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Campari",
+      "desc": "",
+      "price": "R$ 15,00 a R$ 115,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Vodka Absolut",
+      "desc": "",
+      "price": "R$ 18,00 a R$ 300,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Vodka Smirnoff",
+      "desc": "",
+      "price": "R$ 13,50 a R$ 110,00",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Seleta",
+      "desc": "Dose",
+      "price": "R$ 8,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Salinas",
+      "desc": "Dose",
+      "price": "R$ 8,50",
+      "reference": true,
+      "image": ""
+    },
+    {
+      "category": "destilados",
+      "title": "Vale Verde",
+      "desc": "Dose",
+      "price": "R$ 10,00",
+      "reference": true,
+      "image": ""
+    }
+  ],
+  "events": [
+    {
+      "title": "Roda de Samba e aniversário do Alexandre",
+      "date": "2026-12-06",
+      "caption": "A casa abre às 11h. A roda começa às 14h30.",
+      "image": "assets/samba-06-12.jpg"
+    }
+  ],
+  "lunch": "Segunda a sexta, das 10h às 15h",
+  "evening": "Quarta a domingo, das 17h à meia-noite"
+}

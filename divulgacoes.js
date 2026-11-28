@@ -25,13 +25,18 @@ function renderFeed(entries) {
     const post = element('article');
     const img = element('img');
     img.src = item.image;
-    img.alt = 'Imagem de divulgação: ' + item.title;
+    img.alt = [item.title, item.date.split('-').reverse().join('/'), item.caption].filter(Boolean).join('. ');
     img.width = 1080;
     img.height = 1350;
     img.loading = 'lazy';
-    const date = element('time', item.date.split('-').reverse().join('/'));
-    date.dateTime = item.date;
-    post.append(img, date, element('h3', item.title), element('p', item.caption));
+    if (item.image.startsWith('assets/')) {
+      const link = element('a');
+      link.href = item.image;
+      link.append(img);
+      post.append(link);
+    } else {
+      post.append(img);
+    }
     return post;
   });
   feed.replaceChildren(...(posts.length ? posts : [element('p', 'Confira a agenda da casa no Instagram.')]));

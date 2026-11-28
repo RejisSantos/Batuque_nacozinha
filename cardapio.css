@@ -31,3 +31,6 @@
 .menu-contact h2{font-size:clamp(1.75rem,3.5vw,2.2rem)}
 @media(max-width:760px){.menu-hero{padding-block:2.25rem}.menu-layout{grid-template-columns:1fr;padding-block:1.25rem 2.5rem;gap:1rem}.menu-sidebar{position:static}.category-links{flex-direction:row;flex-wrap:wrap}.category-links a{padding:.48rem .62rem;font-size:.9rem}}
 
+.menu-photo{margin-block-start:1.5rem}.menu-photo img{width:100%;height:auto;max-width:48rem;border-radius:.75rem}.menu-photo figcaption{margin-top:.45rem;color:var(--muted);font-size:.9rem}
+
+.menu-category-photo{margin:.75rem 0 1rem}.menu-category-photo img{width:100%;max-width:25rem;height:auto;border-radius:.65rem}.menu-category-photo figcaption{margin-top:.35rem;color:var(--muted);font-size:.9rem}
